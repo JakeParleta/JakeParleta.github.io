@@ -2476,4 +2476,23 @@ input, select, textarea {
 	.container .button-margin {
 		margin-top: 40px;
 	}
+	.container .intro-header {
+		line-height: normal;
+	}
 	
+
+	/* Responsive Web Design */
+	@media screen and (max-width: 1024px) {
+		.container .skills-width {
+			width: 50%;
+		}
+		.image-container img{
+			display: unset;
+		}
+		
+	}
+	@media screen and (max-width: 480px) {
+		.container .skills-width {
+			width: 100%;
+		}
+	}
